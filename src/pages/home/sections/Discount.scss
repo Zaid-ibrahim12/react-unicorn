@@ -1,0 +1,32 @@
+.bb {
+ 
+   
+    padding: 16px 24px;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 8px
+}
+.section{
+    padding: 90px 0;
+    margin: 30px 0;
+    text-align: center;
+    background: #F86338;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ss{
+    font-size: 24px;
+}
+.zz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    font-size: 64px;
+}

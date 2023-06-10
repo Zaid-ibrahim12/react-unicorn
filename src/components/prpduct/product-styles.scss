@@ -1,0 +1,48 @@
+@import "../../styles/variable.scss";
+#product-styles {
+  width: 296px;
+
+  .product-img {
+    height: 296px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .container-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: white;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .category {
+    color: $primary-color;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .price {
+    color: $primary-color;
+  }
+
+  .ellipsis {
+    // height: 40px;
+    width: 250px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+}
